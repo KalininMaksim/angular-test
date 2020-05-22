@@ -1,0 +1,11 @@
+<h3>Content</h3>
+<div class="row">
+  <div class="col-md-5th" *ngFor="let drink of cocntent">
+    <div class="card  text-center">
+      <img class="card-img-top" src="{{drink.strDrinkThumb}}" alt="{{drink.strDrink}}">
+      <div class="card-body">
+        <span class="card-text"> {{drink.strDrink}} </span>
+      </div>
+    </div>
+  </div>
+</div>

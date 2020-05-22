@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&family=Seaweed+Script&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background: #E5E5E5;
+  color: #818181;
+  font-size: 18px;
+  min-width: 320px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+app-filter {
+  padding: 15px;
+}
+
+/*=====================*/
+.main-header {
+  display: flex;
+  justify-content: center;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding: 10px 0 10px 0;
+}
+
+.main-header h1 {
+  font-family: Seaweed Script;
+  font-size: 30px;
+  line-height: 41px;
+  letter-spacing: 0.51em;
+  color: #FF8A00;
+  padding-right: 10px;
+}
+
+.col-lg-3::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 1px;
+  height: 100%;
+  background-color: #D0D0D0;
+  top: 0;
+  right: 20px;
+
+}
